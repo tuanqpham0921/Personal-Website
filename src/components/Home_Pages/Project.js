@@ -8,7 +8,7 @@ function Project() {
   return (
 
     <body>
-      <h1 style={{textAlign: "left", marginTop: "15vh", font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "3em"}}> 
+      <h1 style={{textAlign: "left", marginTop: "15vh", font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.3em"}}> 
           P R O J E C T S </h1>
       <hr style={{margin: "2vw", marginLeft: "0"}}/>
 
@@ -25,7 +25,7 @@ function Project() {
         Project code is available on GitLab​​.</p>
       </div>
       <div class="more">
-        <a href="/all_projects">
+        <a href="/more_projects">
           <video  autoPlay loop muted>
             <source src="turbine_more_kapwing.mp4" type="video/mp4" />
           </video>

@@ -1,7 +1,6 @@
 import './App.css';
-import All_Projects from './components/All_Projects';
-import Final from './components/Home_Pages/Final';
-import All_Interests from './components/Interest_Pages/All_Interests';
+import More_Projects from './components/More_Projects';
+import More_Interests from './components/Interest_Pages/More_Interests';
 import Home from './components/Home';
 
 import {
@@ -25,9 +24,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="*" element={<Navigate replace to="/" />} />
-          <Route path='/all_projects' element={<All_Projects/>} />
-          <Route path='/all_interests' element={<All_Interests/>} />
-          <Route path='/Final' element={<Final/>} />
+          <Route path='/more_projects' element={<More_Projects/>} />
+          <Route path='/More_interests' element={<More_Interests/>} />
         </Routes>
       </Router>
     </>

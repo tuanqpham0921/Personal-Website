@@ -36,6 +36,7 @@
     background: rgb(255, 255, 255);
     width: 25vw;
     height: auto;
+    box-shadow: 0 3px 10px rgb(36, 36, 36);
     /* position: "sticky"; */
   }
   
@@ -56,6 +57,7 @@
     width: auto;
     padding-top: 67%;
     overflow: hidden;
+    box-shadow: 0 3px 10px rgb(36, 36, 36);
   }
   
   .fade-img {
@@ -101,15 +103,30 @@
   .cards__item__img:hover {
     transform: scale(1.1);
   }
+
+  .button_icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .button_icon:hover {
+    transform: scale(1.5);
+    transition: all 0.2s linear;
+  }
   
   .cards__item__info {
     padding: 20px 30px 30px;
     margin-bottom: 30px;
+    font: normal 1.25em "montserrat", serif;
+    line-height: 1.5em;
   }
 
   .cards__item__text {
     color: #252e48;
     font-size: 15px;
+    line-height: 24px;
+    font: normal 15px "montserrat", serif;
     line-height: 24px;
   }
   
@@ -130,3 +147,39 @@
       margin-bottom: 2rem;
     }
   }
+
+
+.holder-more-projects {   
+  align-items: center;
+  display: flex;
+  width: 100vmin;
+  font-size: 1.5em;
+  font: normal 1.5em "montserrat", serif;
+  line-height: 30px;
+}
+
+.holder-more-projects2 {   
+  align-items: center;
+  display: flex;
+  width: 125vmin;
+  font-size: 1.3em;
+  font: normal 1.3em "montserrat", serif;
+  line-height: 30px;
+}
+  
+.holder-more-projects video {
+  width: 50vmin; 
+  height: auto; 
+  margin-left: 3vw;
+}
+
+.holder-more-projects > .text-more-projects {
+  font-size: 1.5em;
+  margin-right: 3vw;
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -o-pre-wrap; /* Opera */
+  white-space: pre-wrap; /* Chrome */
+  word-wrap: break-word; /* IE */
+  font: normal 1.5em "montserrat", serif;
+  line-height: 1.5em;
+}

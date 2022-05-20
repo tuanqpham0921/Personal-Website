@@ -4,7 +4,7 @@ import './Work.css';
 function Work() {
   return (
     <body>
-      <h1 style={{textAlign: "left", marginLeft: "20vw", font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "3em"}}>
+      <h1 style={{textAlign: "left", marginLeft: "20vw", font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.3em"}}>
         E X P R I E N C E</h1>
       <hr style={{textAlign: "left", margin: "2vw", marginLeft: "20vw", marginRight: "30vw"}}/>
       <div class="holder-work">

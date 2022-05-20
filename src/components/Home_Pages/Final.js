@@ -8,7 +8,7 @@ const Final = () => {
           <a
             href="https://www.tuanqpham0921.com/_files/ugd/98eae2_955235f2d47c403698b1e540792b9c23.pdf"
             style={{ fontSize: "2em", color: "black" }}>
-            {`Resume : `} <AiOutlineFile />
+            {'Resume'} <AiOutlineFile />
           </a>
         </p>
 
@@ -16,7 +16,7 @@ const Final = () => {
           <a
             href="https://github.com/tuanqpham0921"
             style={{ fontSize: "2em", color: "black" }}>
-            {`Github : `} <AiFillGithub />
+            {`GitHub `} <AiFillGithub />
           </a>
         </p>
 
@@ -24,7 +24,7 @@ const Final = () => {
           <a
             href="https://www.linkedin.com/in/tuanqpham0921/"
             style={{ fontSize: "2em", color: "black"  }}>
-            {`Linkedin : `} <AiFillLinkedin />
+            {`LinkedIn `} <AiFillLinkedin />
           </a>
         </p>
 

@@ -5,7 +5,7 @@ import './Education.css';
 function Education() {
   return (
     <body>
-      <h1 style={{textAlign: "left", font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "3em"}}>
+      <h1 style={{textAlign: "left", font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.3em"}}>
         E D U C A T I O N</h1>
       <hr style={{textAlign: "left", margin: "2vw", marginLeft: "0", marginRight: "4vw"}}/>
       <div class="holder-education">

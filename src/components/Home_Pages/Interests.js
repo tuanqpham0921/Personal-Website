@@ -5,7 +5,7 @@ import './Interests.css';
 function Interests() {
   return (
     <body>
-        <h1 style={{textAlign: "left", font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "3em"}}>
+        <h1 style={{textAlign: "left", font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.3em"}}>
           I N T E R E S T S </h1>
         
         <div class="holder-interests">
@@ -17,7 +17,7 @@ function Interests() {
                 <br/>
                 Click &nbsp;
                 
-                <a href="/all_interests">
+                <a href="/more_interests" style={{color: "black"}}>
                   here
                 </a>
                 

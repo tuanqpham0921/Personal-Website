@@ -10,10 +10,10 @@ function CardItem(props) {
 
     if (props.path !== 'null') {
       comp =  <CardActions>
-                <Button size="small">
+                <Button className='button_icon' size="small">
                   <a href={props.git} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>
                 </Button>
-                <Button size="small">
+                <Button className='button_icon' size="small">
                   <a href={props.path} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"><PublicIcon /></a>
                 </Button>
               </CardActions>
@@ -21,7 +21,7 @@ function CardItem(props) {
 
     if (props.path === 'paper') {
       comp =  <CardActions>
-                <Button size="small">
+                <Button className='button_icon' size="small">
                   <a href={props.git} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"><PublicIcon /></a>
                 </Button>
               </CardActions>
@@ -29,7 +29,7 @@ function CardItem(props) {
     
     if (props.path === 'null') {
       comp =  <CardActions>
-                <Button size="small">
+                <Button className='button_icon' size="small">
                   <a href={props.git} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>
                 </Button>
               </CardActions>
@@ -42,12 +42,12 @@ function CardItem(props) {
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img
               className='cards__item__img'
-              alt='Travel Image'
+              alt='Cover Image'
               src={props.src}
             />
           </figure>
           <div className='cards__item__info'>
-            <h5 className='cards__item__text'>{props.title}</h5>
+            <h1 style={{fontSize: '1em', marginTop: '-10px'}}>{props.title}</h1>
             <p className='cards__item__text'>{props.text}</p>
             <p3 className='cards__item__text'>{props.tech}</p3>
           </div>

@@ -113,66 +113,121 @@ function Cards() {
     <div className='cards'>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-        <ScrollPage page={0} id="section1">
+        <ScrollPage page={0}>
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -5))}>
-          <h1> ALL PROJECTS</h1>
+          <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>MORE PROJECTS</h1>
+          <hr style={{}}/>
+          <div class="holder-more-projects">
+            <p>
+              I have divided my projects into <i>Software Development</i>, 
+              <i> Systems and Data Structures</i>, <i> Machine Learning</i>, and 
+              <i> Data Analytics</i> categories. 
+
+              <br/><br/>
+
+              Some of them have will have link to GitHub and Demo.
+              I will try to document my projects as clearly as possible.
+              I hope you will enjoy them as much as I had fun working
+              on these. 
+              
+              <br/><br/>
+              Please don't hesitate to email me if there are any issues with 
+              the links or just to discuss ideas!
+            </p>
+          </div>
         </Animator> 
       </ScrollPage> 
           <ScrollPage page={1}>
             <Animator animation={batch(Fade(), Sticky(), MoveOut(0, 0))}>
-              <h1>SOFTWARE DEVELOPMENT</h1>
+            <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>SOFTWARE DEVELOPMENT</h1>
                 {list[0]}
             </Animator>
           </ScrollPage>
 
           <ScrollPage page={2}>
             <Animator animation={batch(Fade(1), Sticky(), MoveOut(0, -1500))}>
-              <h1>SOFTWARE DEVELOPMENT</h1>
+            <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>SOFTWARE DEVELOPMENT</h1>
               {list[0]}
             </Animator>
           </ScrollPage>
 
           <ScrollPage page={3}>
             <Animator animation={batch(Fade(), Sticky(), MoveOut(0, 0))}>
-              <h1>SYSTEMS AND DATA STRUCTURES</h1>
+            <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>SYSTEMS AND DATA STRUCTURES</h1>
               {list[1]}
             </Animator>
           </ScrollPage>
 
           <ScrollPage page={4}>
             <Animator animation={batch(Fade(1), Sticky(), MoveOut(0, -1500))}>
-              <h1>SYSTEMS AND DATA STRUCTURES</h1>
+              <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>SYSTEMS AND DATA STRUCTURES</h1>
               {list[1]}
             </Animator>
           </ScrollPage>
 
           <ScrollPage page={5}>
             <Animator animation={batch(Fade(), Sticky(), MoveOut(0, 0))}>
-              <h1>MACHINE LEARNING</h1>
+            <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>MACHINE LEARNING</h1>
               {list[2]}
             </Animator>
           </ScrollPage>
 
           <ScrollPage page={6}>
             <Animator animation={batch(Fade(1), Sticky(), MoveOut(0, -1500))}>
-              <h1>MACHINE LEARNING</h1>
+            <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>MACHINE LEARNING</h1>
               {list[2]}
             </Animator>
           </ScrollPage>
 
           <ScrollPage page={7}>
             <Animator animation={batch(Fade(), Sticky(), MoveOut(0, 0))}>
-              <h1>DATA ANALYTICS</h1>
+            <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>DATA ANALYTICS</h1>
               {list[3]}
             </Animator>
           </ScrollPage>
 
           <ScrollPage page={8}>
             <Animator animation={batch(Fade(1), Sticky(), MoveOut(0, -1500))}>
-              <h1>DATA ANALYTICS </h1>
+            <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>DATA ANALYTICS </h1>
               {list[3]}
             </Animator>
           </ScrollPage>
+
+          <ScrollPage page={9}>
+        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -5))}>
+        <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>FAQ (as of May 2022)</h1>
+          <hr style={{}}/>
+          <div class="holder-more-projects2">
+            <div class="text-more-projects">
+              <p>
+                <strong>What's your proudest/favorites project?</strong> <br />
+                I'm most proud of my ML models, i.e Pseudo Code to C++.
+                I got learn how to use Transformers
+                and HuggingFace, which is known to be very difficult to work with.
+                They're far from state-of-art models, but I had so much fun work on them.
+              </p>
+
+              <p>
+                <strong>What project would you want to improve? </strong><br />
+                I definitely want to improve my Software Development
+                skills. In college, I mostly focused on Machine
+                Learning or Data Analytics courses. However, after making this 
+                website from scratch, I want to work on more software development projects.
+              </p>
+
+              <p>
+                <strong>What lessons have I taken from these projects?</strong> <br />
+                As most of these are team projects, I have learned the
+                importance of teamwork. Being able to clearly communicate your
+                ideas can make such a difference. While not all ideas can be explained
+                easily, we have to be patient to try to work on the ideas together. 
+                Team work make the dream work!
+              </p>
+            </div>
+          </div>
+        </Animator> 
+      </ScrollPage> 
+          
         </div>
       </div>
     </div>

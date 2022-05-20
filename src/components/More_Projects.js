@@ -1,5 +1,5 @@
 import React from 'react';
-import './All_Projects.css';
+import './More_Projects.css';
 import Cards from './Project_Pages/Cards';
 import Navbar from './Project_Pages/index';
 

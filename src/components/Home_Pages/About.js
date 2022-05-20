@@ -8,7 +8,8 @@ function About() {
     <body>
       <h1 style={{font: "normal normal bold cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "3em"}}>  Tuan Pham</h1>
       <div class='bio'>
-        <p> Hello! I am a student at the University of Texas at Austin. I created this website to help you get to know me better. I'm planning to add more about my experiences, courses I took, music, movies, and food that I like. </p>       
+        <p>Hello! I am a recent graduate from UT Austin with a degree in CS and Economics. I created this website to help you get to know me better. 
+           I'm planning to add more about my experiences, courses I took, music, movies, and food that I like. </p>       
         <p>Feel free to reach out if you have similar interests, backgrounds, or just want to connect!</p>
       </div>
       <hr style={{margin: "2vw", marginLeft: "0", marginBottom: "1vh"}}/>

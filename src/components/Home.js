@@ -52,9 +52,28 @@ function Home() {
 
       <ScrollPage page={6}>
         <Animator animation={ZoomInScrollOut}>
+
+        <body>
+          <h1 style={{textAlign: "left", marginLeft: '30px', font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "1.5em"}}> 
+            C A R E E R</h1>
+          <hr style={{textAlign: "left", marginLeft: '30px', marginBottom: '-30px'}}/>
+          <div className='holder-home'>
+            <div class="text-home">
+            
+              <p>Being a recent graduate, I have curiosity for many roles. However I'm very
+              interested in Full-Stack Engineering, Machine Learning, and Business Manangement related
+              fields. </p>
+              
+              <p>In college, I tried to learn as many different subjects as possible, 
+              but still concentrate on improving the world through technology mindset. I'm a very hard
+              working and self-driven individual. I hope that we can connect and work together!</p>
+                
+            </div>
+          </div>
+        </body>
           
         <body>
-          <h1 style={{textAlign: "left", marginLeft: '30px', font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "3em"}}> 
+          <h1 style={{textAlign: "left", marginLeft: '30px', marginTop: '0px', font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "1.5em"}}> 
             S K I L L S</h1>
           <hr style={{textAlign: "left", marginLeft: '30px', marginBottom: "-30px", marginTop: "-15px"}}/>
           <div className='holder-home'>
@@ -85,6 +104,7 @@ function Home() {
                 <li>React, Flask</li>
                 <li>MySQL, PostgreSQL</li>
                 <li>mongoDB, Cassandra</li>
+                <li>Excel, SageOne</li>
               </ul>  
             </div>
           </div>
@@ -94,6 +114,11 @@ function Home() {
       </ScrollPage>
 
       <ScrollPage page={7}>
+          <Animator animation={ZoomInScrollOut}>
+          </Animator>
+      </ScrollPage>
+
+      <ScrollPage page={8}>
         <div className='section-color'>
           <Animator animation={ZoomInScrollOut}>
             <Project />
@@ -101,25 +126,25 @@ function Home() {
         </div>
       </ScrollPage>
 
-      <ScrollPage page={8}>
+      <ScrollPage page={9}>
         <div className='section-color'>
           <Animator animation={ZoomInScrollOut}>
           </Animator>
         </div>
       </ScrollPage>
 
-      <ScrollPage page={9}>
+      <ScrollPage page={10}>
         <Animator animation={ZoomInScrollOut}>
           <Interests />
         </Animator>
       </ScrollPage>
 
-      <ScrollPage page={10}>
+      <ScrollPage page={11}>
           <Animator animation={ZoomInScrollOut}>
           </Animator>
       </ScrollPage>
 
-      <ScrollPage page={11}>
+      <ScrollPage page={12}>
         <Animator animation={batch(Fade(), Sticky())}>
           <Final />
         </Animator>

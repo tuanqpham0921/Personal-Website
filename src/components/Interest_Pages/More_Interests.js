@@ -1,5 +1,5 @@
 import React from 'react';
-import './All_Interests.css';
+import './More_Interests.css';
 
 function All_Interests() {
   return (
