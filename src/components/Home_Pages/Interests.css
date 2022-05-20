@@ -1,0 +1,18 @@
+.holder-interests {   
+    width: auto; 
+    align-items: center;
+    display: flex;
+  }
+  
+.holder-interests video {
+  width: 100%; 
+  height: auto;
+  margin-left: 100px;
+}
+
+.holder-interests > .text-interests {
+  font-size: 20px;
+  
+  font: normal 20px "montserrat", serif;
+  line-height: 1.5em;
+}

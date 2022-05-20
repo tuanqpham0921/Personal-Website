@@ -1,0 +1,22 @@
+.holder-education {   
+    align-items: center;
+    display: flex;
+    width: 150vmin;
+  }
+  
+.holder-education video {
+  width: 50vmin; 
+  height: auto; 
+  margin-left: 3vw;
+}
+
+.holder-education > .text-education {
+  font-size: 1.5em;
+  margin-right: 3vw;
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -o-pre-wrap; /* Opera */
+  white-space: pre-wrap; /* Chrome */
+  word-wrap: break-word; /* IE */
+  font: normal 1.5em "montserrat", serif;
+  line-height: 1.5em;
+}

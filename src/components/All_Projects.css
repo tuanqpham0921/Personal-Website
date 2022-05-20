@@ -1,0 +1,15 @@
+.holder-all-projects {   
+    width: auto; 
+    align-items: center;
+    display: flex;
+    
+  }
+  
+.holder-all-projects video {
+  width: 75%; 
+  height: auto; 
+}
+
+.holder-all-projects > .text-all-projects {
+  font-size: 20px;
+}

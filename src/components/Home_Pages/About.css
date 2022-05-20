@@ -1,0 +1,55 @@
+.holder {   
+  align-items: center;
+  display: flex;
+  width: 100vmin;
+  /* width: 1em; */
+}
+
+.holder img {
+  margin-left: 5vw;
+  width: 15vw;
+  height: auto;
+  margin-right: 7vw;
+}
+
+.holder > .text {
+  font-size: 1em;
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -o-pre-wrap; /* Opera */
+  white-space: pre-wrap; /* Chrome */
+  word-wrap: break-word; /* IE */
+  width: 30vw;
+}
+
+.bio {
+  width: 50vw;
+  font-size: 1.25em;
+  font: normal 1.25em "montserrat", serif;
+  line-height: 1.5em;
+}
+
+
+/*
+.holder {   
+  width: auto; 
+  align-items: center;
+  display: flex;
+  
+}
+
+.holder > image {
+  width: 10%; 
+  height: auto;
+  flex: auto;    
+}
+
+.holder > .text {
+  font-size: 11px;
+  flex: auto;   
+  text-align: left;   
+}
+
+.text-description {
+  font-size: 19px;
+}
+*/

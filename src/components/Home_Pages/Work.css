@@ -1,0 +1,24 @@
+.holder-work {   
+  align-items: center;
+  display: flex;
+  width: 150vmin;
+  margin-left: 20vw;
+}
+
+.holder-work video {
+  width: 45vmin; 
+  height: auto; 
+  margin-left: 3vw;
+}
+
+.text-work {
+  font-size: 1em;
+  margin-right: 3vw;
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -o-pre-wrap; /* Opera */
+  white-space: pre-wrap; /* Chrome */
+  word-wrap: break-word; /* IE */
+  font: normal 1em "montserrat", serif;
+  line-height: 1.5em;
+}
+
