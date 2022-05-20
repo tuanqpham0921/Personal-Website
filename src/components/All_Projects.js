@@ -1,18 +1,14 @@
 import React from 'react';
 import './All_Projects.css';
 import Cards from './Project_Pages/Cards';
+import Navbar from './Project_Pages/index';
 
 function All_Projects() {
   return (
-
     <>
-      {/* <body className='bod'> */}
-
-      <h1> All Projects</h1>
+      <Navbar />
       <Cards />
-      {/* </body> */}
     </>
-    
   );
 }
 

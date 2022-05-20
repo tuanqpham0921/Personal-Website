@@ -24,6 +24,8 @@
   
   .cards__items {
     margin-bottom: 24px;
+    position: "sticky";
+    
   }
   
   .cards__item {
@@ -32,6 +34,9 @@
     margin: 0 1rem;
     border-radius: 10px;
     background: rgb(255, 255, 255);
+    width: 25vw;
+    height: auto;
+    /* position: "sticky"; */
   }
   
   .cards__item__link {
