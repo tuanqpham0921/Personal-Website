@@ -61,8 +61,7 @@ function Home() {
             <div class="text-home">
             
               <p>Being a recent graduate, I have curiosity for many roles. However I'm very
-              interested in Full-Stack Engineering, Machine Learning, and Business Manangement related
-              fields. </p>
+              interested in Full-Stack Engineering, Machine Learning, and Business Manangement.</p>
               
               <p>In college, I tried to learn as many different subjects as possible, 
               but still concentrate on improving the world through technology mindset. I'm a very hard

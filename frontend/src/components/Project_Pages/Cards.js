@@ -2,6 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
+import Fader from '../Fader'
 
 function Cards() {
   const list =[
@@ -115,25 +116,23 @@ function Cards() {
         <div className='cards__wrapper'>
         <ScrollPage page={0}>
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -5))}>
-          <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>MORE PROJECTS</h1>
+          <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>
+            <Fader text="MORE PROJECTS" time="750"/></h1>
           <hr style={{}}/>
           <div class="holder-more-projects">
-            <p>
-              I have divided my projects into <i>Software Development</i>, 
-              <i> Systems and Data Structures</i>, <i> Machine Learning</i>, and 
-              <i> Data Analytics</i> categories. 
-
-              <br/><br/>
-
+            <Fader text="
+              I have divided my projects into Software Development, 
+              Systems and Data Structures, Machine Learning, and 
+              Data Analytics categories." time="1000" />
+            
+            <Fader text="
               Some of them have will have link to GitHub and Demo.
               I will try to document my projects as clearly as possible.
-              I hope you will enjoy them as much as I had fun working
-              on these. 
-              
-              <br/><br/>
+              I hope you will enjoy them as much as I did." time="1250" />
+            
+            <Fader text="
               Please don't hesitate to email me if there are any issues with 
-              the links or just to discuss ideas!
-            </p>
+              the links or just to discuss ideas!" time="1500" />
           </div>
         </Animator> 
       </ScrollPage> 
@@ -195,7 +194,8 @@ function Cards() {
 
           <ScrollPage page={9}>
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -5))}>
-        <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>FAQ (as of May 2022)</h1>
+        <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>
+            FAQ (as of May 2022)</h1>
           <hr style={{}}/>
           <div class="holder-more-projects2">
             <div class="text-more-projects">
@@ -221,7 +221,7 @@ function Cards() {
                 importance of teamwork. Being able to clearly communicate your
                 ideas can make such a difference. While not all ideas can be explained
                 easily, we have to be patient to try to work on the ideas together. 
-                Team work make the dream work!
+                Team work makes the dream work!
               </p>
             </div>
           </div>

@@ -2,6 +2,7 @@ import './App.css';
 import More_Projects from './components/More_Projects';
 import More_Interests from './components/Interest_Pages/More_Interests';
 import Home from './components/Home';
+import Fader from './components/Fader';
 
 import {
   BrowserRouter as Router,
@@ -25,7 +26,6 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="*" element={<Navigate replace to="/" />} />
           <Route path='/more_projects' element={<More_Projects/>} />
-          <Route path='/More_interests' element={<More_Interests/>} />
         </Routes>
       </Router>
     </>
