@@ -20,9 +20,9 @@ function About() {
                time="900"></Fader> 
         <Fader text="Feel free to reach out if you have similar interests, backgrounds, or just want to connect!"
                time="1100"></Fader> 
+        <hr style={{margin: "2vw", marginLeft: "0"}}/>
       </div>
 
-      <hr style={{margin: "2vw", marginLeft: "0", marginBottom: "1vh"}}/>
 
         <div class="holder">
             <div class="image">

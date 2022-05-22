@@ -3,6 +3,7 @@ import More_Projects from './components/More_Projects';
 import More_Interests from './components/Interest_Pages/More_Interests';
 import Home from './components/Home';
 import Fader from './components/Fader';
+import VietDia from './components/Project_Pages/VietDia';
 
 import {
   BrowserRouter as Router,
@@ -26,6 +27,9 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="*" element={<Navigate replace to="/" />} />
           <Route path='/more_projects' element={<More_Projects/>} />
+          {/* <Route exact path="/viet" render={() => {window.location.href="VietDia.html"}} /> */}
+          <Route path='/viet' element={<VietDia />} />
+
         </Routes>
       </Router>
     </>
