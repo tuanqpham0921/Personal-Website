@@ -6,7 +6,7 @@ import Navbar from './Project_Pages/index';
 function All_Projects() {
   return (
     <>
-      <Navbar />
+      <Navbar val="/" />
       <Cards />
     </>
   );

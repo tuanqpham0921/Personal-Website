@@ -71,7 +71,7 @@ function Cards() {
       Model achieved around an 86% accurarcy'
       tech='HuggingFace, PyTorch, TensorFlow'
       label='NLP (Demo Available)'
-      path='/products'/>
+      path='/viet'/>
     <CardItem
       src='readingcomp.jpeg'
       title='Reading Comprehension'
@@ -121,9 +121,10 @@ function Cards() {
           <hr style={{}}/>
           <div class="holder-more-projects">
             <Fader text="
-              I have divided my projects into Software Development, 
+              There are 3 main categories:
+              Software Development,
               Systems and Data Structures, Machine Learning, and 
-              Data Analytics categories." time="1000" />
+              Data Analytics." time="1000" />
             
             <Fader text="
               Some of them have will have link to GitHub and Demo.
@@ -211,8 +212,8 @@ function Cards() {
                 <strong>What project would you want to improve? </strong><br />
                 I definitely want to improve my Software Development
                 skills. In college, I mostly focused on Machine
-                Learning or Data Analytics courses. However, after making this 
-                website from scratch, I want to work on more software development projects.
+                Learning or Data Analytics courses. However, having a great
+                time making this website from scratch, I want to work on more software development projects.
               </p>
 
               <p>

@@ -81,12 +81,7 @@ hr {
   line-height: 1.5em;
 }
 
-.fade-in {
-  transition: opacity 1s ease;
-}
-
-.fade-out {
-  opacity: 0;
-  transition: opacity 1s ease;
+textarea {
+  resize: none;
 }
 

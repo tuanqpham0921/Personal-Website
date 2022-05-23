@@ -4,13 +4,13 @@ import Link from "react-scroll/modules/components/Link";
 import { AiOutlineRollback } from "react-icons/ai";
 
 
-const Navbar = () => {
+const Navbar = (prop) => {
   return (
     <>
       <NavbarContainer>
         <NavbarWrapper>
           <NavItem >
-            <a href="/"
+            <a href={prop.val}
               style={{ fontSize: "1.5em", color: "black" }}>
               <AiOutlineRollback />
             </a>

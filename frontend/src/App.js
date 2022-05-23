@@ -4,6 +4,7 @@ import More_Interests from './components/Interest_Pages/More_Interests';
 import Home from './components/Home';
 import Fader from './components/Fader';
 import VietDia from './components/Project_Pages/VietDia';
+import Pseudo2Cpp from './components/Project_Pages/Pseudo2Cpp';
 
 import {
   BrowserRouter as Router,
@@ -27,9 +28,8 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="*" element={<Navigate replace to="/" />} />
           <Route path='/more_projects' element={<More_Projects/>} />
-          {/* <Route exact path="/viet" render={() => {window.location.href="VietDia.html"}} /> */}
           <Route path='/viet' element={<VietDia />} />
-
+          <Route path='/pseudo2cpp' element={<Pseudo2Cpp />} />
         </Routes>
       </Router>
     </>

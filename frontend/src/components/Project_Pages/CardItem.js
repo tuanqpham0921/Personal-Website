@@ -2,7 +2,6 @@ import React from 'react';
 import {CardActions, Button } from "@material-ui/core";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import PublicIcon from '@material-ui/icons/Public';
-// import ArticleIcon from '@mui/icons-material/Article';
 
 
 function CardItem(props) {
@@ -33,7 +32,6 @@ function CardItem(props) {
                   <a href={props.git} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>
                 </Button>
               </CardActions>
-
     }
   return (
     <>
