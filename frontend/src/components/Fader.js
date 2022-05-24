@@ -9,7 +9,7 @@ const Fader = ({ text, time }) => {
 
     useEffect(() => {
         const timeout = setInterval(() => {
-            setFadeProp({fade: 'fade-in'})}, time);})
+            setFadeProp({fade: 'fade-in'})}, time);},)
 
     return (
         <>

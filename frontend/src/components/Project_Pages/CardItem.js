@@ -10,10 +10,10 @@ function CardItem(props) {
     if (props.path !== 'null') {
       comp =  <CardActions>
                 <Button className='button_icon' size="small">
-                  <a href={props.git} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>
+                  <a href={props.git} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"></a>
                 </Button>
                 <Button className='button_icon' size="small">
-                  <a href={props.path} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"><PublicIcon /></a>
+                  <a href={props.path} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"></a>
                 </Button>
               </CardActions>
     } 
@@ -21,7 +21,7 @@ function CardItem(props) {
     if (props.path === 'paper') {
       comp =  <CardActions>
                 <Button className='button_icon' size="small">
-                  <a href={props.git} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"><PublicIcon /></a>
+                  <a href={props.git} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"></a>
                 </Button>
               </CardActions>
     } 
@@ -29,9 +29,13 @@ function CardItem(props) {
     if (props.path === 'null') {
       comp =  <CardActions>
                 <Button className='button_icon' size="small">
-                  <a href={props.git} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>
+                  <a href={props.git} style={{color:'Black'}} target="_blank" rel="noopener noreferrer"></a>
                 </Button>
               </CardActions>
+    }
+
+    if (props.path === 'nullnull') {
+      comp =  <></>
     }
   return (
     <>
@@ -51,6 +55,7 @@ function CardItem(props) {
           </div>
           <div className='cards__item__icon'>
             {comp}
+            {/* Put icon here! */}
           </div>
         </div>
       </li>

@@ -7,9 +7,6 @@ import Fader from '../Fader';
 function About() {
   return (
     <body>
-      {/* <h1 style={{font: "normal normal bold cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "3em"}}>  
-        Tuan Pham</h1> */}
-
       <h1 style={{font: "normal normal bold cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", 
                   letterSpacing: "0em", fontSize: "3em", marginTop: "-40px"}}>  
       <Fader text="Tuan Pham" time="750"></Fader> </h1>

@@ -1,8 +1,5 @@
 import React from 'react';
 import './Project.css';
-// import Cards from '../Project_Pages/Cards';
-// import CardItem from '../Project_Pages/CardItem';
-import Link from 'react-scroll/modules/components/Link';
 
 function Project() {
   return (

@@ -13,7 +13,7 @@ function Cards() {
         text='check out how I made this website on GitHub!'
         tech='React, JavaScript, HTML, and CSS'
         label='Website'
-        path='null'
+        path='https://tuanqpham0921.com'
         git='https://github.com/tuanqpham0921/Personal-Website'/>
       <CardItem
         src='music.jpg'
@@ -47,12 +47,12 @@ function Cards() {
       git='https://github.com/tuanqpham0921/Memory-Management' />
     <CardItem
       src='Huffman.jpg'
-      title='HuffMan Compression'
-      text='using the popular HuffMan Compression algorithm to decrease the
+      title='Huffman Coding'
+      text='using the popular Huffman Compression algorithm to decrease the
       size for file transfers. Learned how to use trees data structure and file systems.'
       tech='Language: Java'
       label='Data Structure'
-      path='/musicmuse'/>
+      path='nullnull'/>
     </ul>,
   <ul className='cards__items'>
     <CardItem
@@ -88,7 +88,7 @@ function Cards() {
       text=' implemented a multi sockets sort algorithm to efficently sort a large taxi data record with multiple cloud machine.'
       tech='Java, Google Cloud, and Hadoop MapReduce'
       label='Cloud Computing / Data Analytics'
-      path='/services'/>
+      path='null'/>
     <CardItem
       src='unicornstartup.png'
       title='Unicorn StartUp Evaluation'
@@ -96,7 +96,8 @@ function Cards() {
       Learned how to data clean and used prediction algorithms on real life dataset.'
       tech='Jypyter Notebook, SkitLearn, and Pandas.'
       label='Data Mining'
-      path='/products'/>
+      git='https://github.com/tuanqpham0921/Unicorn-Startup-Evaluation'
+      path='null'/>
     <CardItem
       src='unemployment.jpg'
       title='The Effect of Minimum Wage on Unemployment'

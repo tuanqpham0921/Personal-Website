@@ -8,7 +8,7 @@ import Interests from './Home_Pages/Interests';
 import Final from './Home_Pages/Final';
 import './Home.css'
 
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn(), MoveOut(0, -200));
 const FadeUp = batch(Fade(), Move(), Sticky(), MoveOut(0, -200));
 
