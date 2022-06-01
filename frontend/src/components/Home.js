@@ -28,30 +28,30 @@ function Home() {
 
       <ScrollPage page={2}>
         <div className='section-color'>
-          <Animator animation={FadeUp}>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
             <Education />
           </Animator>
         </div>
       </ScrollPage>
 
       <ScrollPage page={3}>
-          <Animator animation={ZoomInScrollOut}>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
           </Animator>
       </ScrollPage>
 
       <ScrollPage page={4}>
-          <Animator animation={ZoomInScrollOut}>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
             <Work />
           </Animator>
       </ScrollPage>
 
       <ScrollPage page={5}>
-          <Animator animation={ZoomInScrollOut}>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
           </Animator>
       </ScrollPage>
 
       <ScrollPage page={6}>
-        <Animator animation={ZoomInScrollOut}>
+        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
 
         <body>
           <h1 style={{textAlign: "left", marginLeft: '30px', font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "1.5em"}}> 
@@ -61,10 +61,10 @@ function Home() {
             <div class="text-home">
             
               <p>Being a recent graduate, I have curiosity for many roles. However I'm very
-              interested in Full-Stack Engineering, Machine Learning, and Business Manangement.</p>
+              interested in Full-Stack Engineering, Machine Learning, and Entrepreneurship.</p>
               
               <p>In college, I tried to learn as many different subjects as possible, 
-              but still concentrate on improving the world through technology mindset. I'm a very hard
+              but still concentrate on improving the world through a technology mindset. I'm a very hard
               working and self-driven individual. I hope that we can connect and work together!</p>
                 
             </div>
@@ -113,13 +113,13 @@ function Home() {
       </ScrollPage>
 
       <ScrollPage page={7}>
-          <Animator animation={ZoomInScrollOut}>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
           </Animator>
       </ScrollPage>
 
       <ScrollPage page={8}>
         <div className='section-color'>
-          <Animator animation={ZoomInScrollOut}>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
             <Project />
           </Animator>
         </div>
@@ -127,24 +127,24 @@ function Home() {
 
       <ScrollPage page={9}>
         <div className='section-color'>
-          <Animator animation={ZoomInScrollOut}>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
           </Animator>
         </div>
       </ScrollPage>
 
       <ScrollPage page={10}>
-        <Animator animation={ZoomInScrollOut}>
+        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
           <Interests />
         </Animator>
       </ScrollPage>
 
       <ScrollPage page={11}>
-          <Animator animation={ZoomInScrollOut}>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
           </Animator>
       </ScrollPage>
 
       <ScrollPage page={12}>
-        <Animator animation={batch(Fade(), Sticky())}>
+        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
           <Final />
         </Animator>
       </ScrollPage>

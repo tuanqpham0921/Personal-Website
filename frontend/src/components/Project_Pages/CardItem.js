@@ -2,6 +2,7 @@ import React from 'react';
 import {CardActions, Button } from "@material-ui/core";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import PublicIcon from '@material-ui/icons/Public';
+import { Link } from 'react-router-dom';
 
 
 function CardItem(props) {
@@ -40,7 +41,7 @@ function CardItem(props) {
   return (
     <>
       <li className='cards__item'>
-        <div className='cards__item__link' to={props.path}>
+        <a className='cards__item__link' href={props.path} color="black">
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img
               className='cards__item__img'
@@ -53,11 +54,10 @@ function CardItem(props) {
             <p className='cards__item__text'>{props.text}</p>
             <p3 className='cards__item__text'>{props.tech}</p3>
           </div>
-          <div className='cards__item__icon'>
+          {/* <div className='cards__item__icon'>
             {comp}
-            {/* Put icon here! */}
-          </div>
-        </div>
+          </div> */}
+        </a>
       </li>
     </>
   );

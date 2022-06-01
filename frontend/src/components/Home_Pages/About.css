@@ -28,29 +28,3 @@
   line-height: 1.5em;
   margin-top: -30px;
 }
-
-
-/*
-.holder {   
-  width: auto; 
-  align-items: center;
-  display: flex;
-  
-}
-
-.holder > image {
-  width: 10%; 
-  height: auto;
-  flex: auto;    
-}
-
-.holder > .text {
-  font-size: 11px;
-  flex: auto;   
-  text-align: left;   
-}
-
-.text-description {
-  font-size: 19px;
-}
-*/

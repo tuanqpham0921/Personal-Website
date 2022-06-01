@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, MoveOut, Sticky, } from "react-scroll-motion";
 import Fader from '../Fader'
 
 function Cards() {
@@ -11,29 +11,31 @@ function Cards() {
         src='PersonalWeb.png'
         title='Personal Website'
         text='check out how I made this website on GitHub!'
-        tech='React, JavaScript, HTML, and CSS'
-        label='Website'
-        path='https://tuanqpham0921.com'
+        tech='React, JavaScript, HTML, Docker, and CSS'
+        label='Website (Code Available)'
+        // path='https://tuanqpham0921.com'
+        path='https://github.com/tuanqpham0921/Personal-Website'
         git='https://github.com/tuanqpham0921/Personal-Website'/>
       <CardItem
         src='music.jpg'
         title='MusicMuse'
-        text='developed a website to store dynamic music databases. Learned frontend and backend development.'
-        tech='API, HTML, CSS, JavaScript, Flask, Python, Node.js, and SQL'
-        label='Website'
-        path='null'
+        text='developed a dynamic website to store music databases. Contributed as a full-stack engineer. Learned frontend and backend software development in a team of five.'
+        tech='JavaScript, HTML, CSS, Flask, Python, Docker, and SQL'
+        label='Website (Code Available)'
+        // path='null'
+        path='https://gitlab.com/kev.guo123/cs373-idb'
         git='https://gitlab.com/kev.guo123/cs373-idb'/>
     </ul>,
   <ul className='cards__items'>
     <CardItem
       src='Gpu.jpg'
       title='GPU Emulator'
-      text='created an emulator to demonstrate the differences between parallel
-      CPU and GPU performance. Learned many operating systems subjects
-      by building the kernel.'
-      tech='C++ and Docker'
-      label='Operating Systems'
-      path='null'
+      text='built an emulator to demonstrate the differences between CPU and GPU performance.
+      Worked as a project leader. Learned multithreading, file systems, and synchronization primitives. '
+      tech='C++ and CUDA'
+      label='Operating Systems (Code Available)'
+      // path='null'
+      path='https://gitlab.com/tuanqpham0921/local-final-os'
       git='https://gitlab.com/tuanqpham0921/local-final-os'/>
     <CardItem
       src='malloc.jpg'
@@ -42,8 +44,9 @@ function Cards() {
       that ensures the heap management is efficient and correct. Learn how to use pointers 
       and performance coding.'
       tech='Language: C'
-      label='Architecture'
-      path='null'
+      label='Architecture (Code Available)'
+      // path='null'
+      path='https://github.com/tuanqpham0921/Memory-Management'
       git='https://github.com/tuanqpham0921/Memory-Management' />
     <CardItem
       src='Huffman.jpg'
@@ -52,7 +55,7 @@ function Cards() {
       size for file transfers. Learned how to use trees data structure and file systems.'
       tech='Language: Java'
       label='Data Structure'
-      path='nullnull'/>
+      path=''/>
     </ul>,
   <ul className='cards__items'>
     <CardItem
@@ -60,35 +63,37 @@ function Cards() {
       title='Pseudo Code To C++'
       text="created a machine learning model that can translate pseudo code to C++ hoping
       to help programmers that can't type. The model achieved accuracy around 80%."
-      tech='HuggingFace, PyTorch, TensorFlow'
-      label='NLP (Demo Available)'
-      path='/pseudo2cpp'/>
+      tech='PyTorch, Google Colab, and HuggingFace'
+      label='NLP (Notebook Available)'
+      // path='/pseudo2cpp'
+      path='https://colab.research.google.com/drive/1TVuvG0gCWD-CgkhOzX7hBGMqHejtQFtv?usp=sharing'
+      />
     <CardItem
       src='vietnamesedia.png'
       title='Vietnamese Diacritics Restoration'
       text='made a model to accurately restore Vietnamese diacritics using context 
       hoping to increase writing and reading speed for Vietnamese elders.
-      Model achieved around an 86% accurarcy'
+      Model achieved around an 80% accurarcy'
       tech='HuggingFace, PyTorch, TensorFlow'
-      label='NLP (Demo Available)'
-      path='/viet'/>
+      label='NLP'
+      path=''/>
     <CardItem
       src='readingcomp.jpeg'
       title='Reading Comprehension'
       text='using a recurrent neural networks model to understand text and answer
       questions to increase reading speed. Model achieved around 40% question answering accuracy.'
       tech='PyTorch and Google Cloud'
-      label='Neural Networks (Demo Available)'
-      path='null'/>
+      label='Neural Networks'
+      path=''/>
     </ul>,
   <ul className='cards__items'>
     <CardItem
       src='taxisorting.jpg'
       title='Taxi Sorting'
-      text=' implemented a multi sockets sort algorithm to efficently sort a large taxi data record with multiple cloud machine.'
+      text='programmed a multi-machines sorting algorithm on a large taxi dataset. Contributed multiple designs to a team of four. Learned virtual machine networking and optimizations on large datasets.'
       tech='Java, Google Cloud, and Hadoop MapReduce'
       label='Cloud Computing / Data Analytics'
-      path='null'/>
+      path=''/>
     <CardItem
       src='unicornstartup.png'
       title='Unicorn StartUp Evaluation'
@@ -97,14 +102,15 @@ function Cards() {
       tech='Jypyter Notebook, SkitLearn, and Pandas.'
       label='Data Mining'
       git='https://github.com/tuanqpham0921/Unicorn-Startup-Evaluation'
-      path='null'/>
+      path='https://github.com/tuanqpham0921/Unicorn-Startup-Evaluation'/>
     <CardItem
       src='unemployment.jpg'
       title='The Effect of Minimum Wage on Unemployment'
       text='researched and analyzed the contributing factors to unemployment rate
       and the minimum wage in the United States since 1975 using statistical methods on quantitative data'
-      label='Research Paper'
-      path='paper'
+      label='Research Paper Availble'
+      // path='paper'
+      path='https://www.tuanqpham0921.com/_files/ugd/98eae2_d1b2b1350b4540dba33bf21b45f5bc00.pdf'
       git='https://www.tuanqpham0921.com/_files/ugd/98eae2_d1b2b1350b4540dba33bf21b45f5bc00.pdf'/>
     </ul>
 ]
@@ -197,7 +203,7 @@ function Cards() {
           <ScrollPage page={9}>
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -5))}>
         <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>
-            FAQ (as of May 2022)</h1>
+            FAQ</h1>
           <hr style={{}}/>
           <div class="holder-more-projects2">
             <div class="text-more-projects">

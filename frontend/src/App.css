@@ -48,17 +48,6 @@
 }
 
 
-.hero-container {
-  object-fit: contain;
-}
-
-.hero-container video {
-  object-fit: cover;
-  width: auto;
-  height: auto;
-  position: fixed;
-  z-index: -1;
-}
 
 .section-video video {
   width: 75%; /* Will shrink image to 30% of its original width */

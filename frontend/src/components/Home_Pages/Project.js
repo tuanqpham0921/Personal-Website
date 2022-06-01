@@ -10,16 +10,27 @@ function Project() {
       <hr style={{margin: "2vw", marginLeft: "0"}}/>
 
       <div class="text-project">
-        <p><strong>MusicMuse</strong><br />
-        developed a website to store dynamic music databases using API, HTML, CSS, JavaScript, Flask, Python, and SQL. 
-        Project code is available on GitLab​​ </p>
+        <p><strong>MusicMuse: </strong><i>JavaScript, HTML, CSS, Flask, Python, Docker, and SQL</i><br />
+        developed a dynamic website to store music databases. Contributed as a full-stack engineer. 
+        Learned frontend and backend software development in a team of five. &nbsp; 
+        <a href="https://gitlab.com/kev.guo123/cs373-idb" style={{color: "black"}}>
+                  GitLab</a></p>
         
-        <p><strong>Taxi Sorting</strong><br />
-        implemented a sort algorithm to rank a large taxi data record with multiple cloud machines using Java, Google Cloud, and Hadoop MapReduce </p>
+        <p><strong>Pseudo Code to C++ Translator: </strong><i>PyTorch, Google Colab, and HuggingFace</i><br />
+        created a machine learning model that translates pseudo code to C++ to save time or help disabled programmers. 
+        The model achieved an accuracy of around 76%. &nbsp; 
+        <a href="https://colab.research.google.com/drive/1TVuvG0gCWD-CgkhOzX7hBGMqHejtQFtv?usp=sharing" style={{color: "black"}}>
+                  Notebook</a></p>
 
-        <p><strong>Netflix Prize</strong><br/>
-        created feature extractions and machine learning algorithms on the 2009 Netflix Prize competition data to reduce prediction error rate (RMSE) by at least 5% using C++.
-        Project code is available on GitLab​​.</p>
+        <p><strong>GPU Emulator: </strong><i>C++, CUDA</i><br/>
+        built an emulator to demonstrate the differences between CPU and GPU performance. Worked as a project leader. 
+        Learned multithreading, file systems, and synchronization primitives. &nbsp; 
+        <a href="https://gitlab.com/tuanqpham0921/local-final-os" style={{color: "black"}}>
+                  GitLab</a></p>
+      
+        <p><strong>Taxi Sorting: </strong><i>Java, Hadoop MapReduce, and Google Cloud Platform</i><br/>
+        programmed a multi-machines sorting algorithm on a large taxi dataset. Contributed multiple designs to a team of four. 
+        Learned virtual machine networking and optimizations on large datasets. </p>
       </div>
       <div class="more">
         <a href="/more_projects">

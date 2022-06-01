@@ -14,7 +14,7 @@ import {
 
 function App() {
   return (
-    <>
+    <div>
       <Router>
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -24,7 +24,7 @@ function App() {
           <Route path='/pseudo2cpp' element={<Pseudo2Cpp />} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 
