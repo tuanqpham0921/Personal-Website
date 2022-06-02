@@ -128,7 +128,7 @@ function Cards() {
           <hr style={{}}/>
           <div class="holder-more-projects">
             <Fader text="
-              There are 3 main categories:
+              There are 4 main categories:
               Software Development,
               Systems and Data Structures, Machine Learning, and 
               Data Analytics." time="1000" />
@@ -203,14 +203,14 @@ function Cards() {
           <ScrollPage page={9}>
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -5))}>
         <h1 style={{font: "normal normal bold 22px/1.4em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif", letterSpacing: "0em", fontSize: "2.5em"}}>
-            FAQ</h1>
+            FAQs</h1>
           <hr style={{}}/>
           <div class="holder-more-projects2">
             <div class="text-more-projects">
               <p>
-                <strong>What's your proudest/favorites project?</strong> <br />
-                I'm most proud of my ML models, i.e Pseudo Code to C++.
-                I got learn how to use Transformers
+                <strong>What's your proudest/favorite project?</strong> <br />
+                My favorite is Pseudo Code to C++ model.
+                I learned how to use Transformers
                 and HuggingFace, which is known to be very difficult to work with.
                 They're far from state-of-art models, but I had so much fun work on them.
               </p>

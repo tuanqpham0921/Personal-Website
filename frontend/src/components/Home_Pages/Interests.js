@@ -26,8 +26,8 @@ function Interests() {
                 and 
                 &nbsp; 
 
-                <a href="https://www.amazon.com/1984-George-Orwell/dp/B08T49SJZT/ref=sr_1_1_sspa?crid=KBLJVMN3IYTW&keywords=1984&qid=1653081483&s=books&sprefix=1984%2Cstripbooks%2C116&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExM1lQSzRXT1NYT0ZSJmVuY3J5cHRlZElkPUEwMTE1Mzc3MUJLSjJHSzZIMjFNMyZlbmNyeXB0ZWRBZElkPUEwOTE0OTA0MlJLM1I1Rk9DQlowSiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=" style={{color: "black"}}>
-                  <i>1984 </i> by George Orwell</a>
+                <a href="https://www.amazon.com/Range-Generalists-Triumph-Specialized-World/dp/0735214484" style={{color: "black"}}>
+                  <i>Range </i> by David Epstein</a>
                 . <br/>
                 {/* <br/>
                 Click &nbsp;

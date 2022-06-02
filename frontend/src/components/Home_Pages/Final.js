@@ -6,7 +6,7 @@ const Final = () => {
       <div>
         <p>
           <a
-            href="https://www.tuanqpham0921.com/_files/ugd/98eae2_955235f2d47c403698b1e540792b9c23.pdf"
+            href="https://www.tuanqpham0921.com/_files/ugd/98eae2_6f8510093f174cc58ba5978732682336.pdf"
             style={{ fontSize: "2em", color: "black" }}>
             {'Resume'} <AiOutlineFile />
           </a>

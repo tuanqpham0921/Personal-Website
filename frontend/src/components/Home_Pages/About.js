@@ -1,7 +1,5 @@
 import React from 'react';
 import './About.css'
-import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
-import Link from 'react-scroll/modules/components/Link';
 import Fader from '../Fader';
 
 function About() {
@@ -41,7 +39,7 @@ function About() {
                 &nbsp; 
                 •
                 &nbsp; 
-                <a href="https://www.tuanqpham0921.com/_files/ugd/98eae2_955235f2d47c403698b1e540792b9c23.pdf" style={{color: "black"}}>
+                <a href="https://www.tuanqpham0921.com/_files/ugd/98eae2_6f8510093f174cc58ba5978732682336.pdf" style={{color: "black"}}>
                   Resume</a>
                 </p>
             </div>

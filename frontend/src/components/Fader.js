@@ -12,11 +12,11 @@ const Fader = ({ text, time }) => {
             setFadeProp({fade: 'fade-in'})}, time);},)
 
     return (
-        // <>
-        //     <p data-testid="fader" className={fadeProp.fade}>{text}</p>
-        // </>
+        <>
+            <p data-testid="fader" className={fadeProp.fade}>{text}</p>
+        </>
 
-        <p>{text}</p>
+        // <p>{text}</p>
     )
 }
 
